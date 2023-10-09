@@ -6,7 +6,7 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-safe_drive = { workspace = true }
+safe_drive = "0.2"
 futures = "0.3"
 tokio = { version = "1", features = ["full"] }
 gpio-cdev = {version = "0.5", features=["async-tokio"]}
